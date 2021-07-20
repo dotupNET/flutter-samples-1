@@ -16,7 +16,7 @@ class ParentProvider extends InheritedWidget {
     this.tabController,
     this.child,
     this.title,
-  });
+  }): super(child: child);
 
   @override
   bool updateShouldNotify(ParentProvider oldWidget) {
